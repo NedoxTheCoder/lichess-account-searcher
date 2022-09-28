@@ -1,0 +1,1 @@
+# lichess-account-searcher
