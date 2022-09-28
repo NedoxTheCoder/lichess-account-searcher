@@ -103,6 +103,14 @@ body{
     font-size: 2rem;
 }
 
+.title{
+    font-size: 2rem;
+    background-color: rgb(100, 99, 99);
+    color: #d3d3d3;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
 
 
 @media (max-width:950px) {
