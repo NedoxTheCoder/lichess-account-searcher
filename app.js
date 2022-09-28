@@ -88,7 +88,16 @@ function addToHtml(d){
         button.style.display = "inline-flex";
         buttonwrapper.setAttribute("href",url);
         user.innerText = username;
-    
+        
+        if (d.title){
+        let titleElement = document.createElement("span");
+        titleElement.classList.add("title");
+        titleElement.innerText = `${d.title}`;
+        console.log(titleElement);
+
+        // user.innerHTML = titleElement + user.innerHTML;
+        user.prepend(titleElement);
+    }
         input.value = "";
 }
 
