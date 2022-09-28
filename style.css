@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Kanit&family=Lato&family=Nunito&family=Open+Sans&family=Poppins:wght@300&family=Quicksand&family=Raleway&family=Roboto+Mono&family=Roboto:wght@300;400&family=Rubik&family=Sansita+Swashed&family=Titan+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stats{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    background-color: #d5d5d5;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.main img{
+    width: 20%;
+    margin: auto;
+}
+.main h1{
+    font-size: 3rem;
+}
+
+#input{
+    border: none;
+    outline: 0;
+    width: 100%;
+    font-size: 1.4rem;
+}
+.wrapper{
+    border: 2px solid #000;
+    border-radius: 3px;
+    width: 65%;
+    margin: auto;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    padding-right: 0.8rem;
+}
+
+.wrapper i{
+    cursor: pointer;
+}
+
+.otherstats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.others{
+    background-color: #bbdeed;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.link button{
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    display: none;
+}
+
+.link button:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.username{
+    font-size: 2rem;
+}
+
+
+
+@media (max-width:950px) {
+    .wrapper{
+        width: 80%;
+    }
+}
+@media (max-width:850px) {
+    .wrapper{
+        width: 80%;
+    }
+}
+@media (max-width:650px) {
+    :root{
+        font-size: 14px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+}
+@media (max-width:550px) {
+    :root{
+        font-size: 12px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+}
+@media (max-width:450px) {
+    :root{
+        font-size: 10px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    #input{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:280px) {
+    :root{
+        font-size: 9px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    #input{
+        font-size: 2rem;
+    }
+    body{
+        padding: 2rem;
+    }
+}

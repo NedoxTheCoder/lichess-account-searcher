@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/77e93c6a51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <img src="./img/Lichess_Logo_2019.svg.png" alt="">
+        <h1>Lichess</h1>
+    <div class="wrapper">
+        <input type="text" name="t" id="input" placeholder="Search for a player...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <h2 class="username"></h2>
+    <div class="otherstats">
+        <div class="status others">
+            Status: <span class="onoff"></span>
+        </div>
+        <div class="joindate others">
+            Joined at: <span class="joined"></span>
+        </div>
+    </div>
+        <div class="stats">
+            <div class="bullet section">
+                <h2>Bullet</h2>
+                <div>Games: <span class="gamesBullet rate"></span></div>
+                <div>Rating: <span class="ratingBullet rate"></span></div>
+            </div>
+            <div class="blitz section">
+                <h2>Blitz</h2>
+                <div>Games: <span class="gamesBlitz rate"></span></div>
+                <div>Rating: <span class="ratingBlitz rate"></span></div>
+            </div>
+            <div class="rapid section">
+                <h2>Rapid</h2>
+                <div>Games: <span class="gamesRapid rate"></span></div>
+                <div>Rating: <span class="ratingRapid rate"></span></div>
+            </div>
+        </div>
+        <div class="link">
+            <a href="" target="_blank"><button>Account Link</button></a>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/datejs@1.0.0-rc3/index.min.js"></script> -->
+</body>
+</html>
